@@ -1,0 +1,7 @@
+{
+    "JWT_SECRET": "secret",
+    "PORT": "8000",
+    "API_KEY": "",
+    "API_SECRET": ""
+}
+  

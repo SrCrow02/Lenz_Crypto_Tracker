@@ -1,0 +1,27 @@
+### Register
+POST http://localhost:8000/auth/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "guiasdsad@gmail.com",
+  "password": "CC.81194",
+  "name": "Guilherme",
+  "address": "rua asd"
+}
+
+### Login
+POST http://localhost:8000/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "guiasdsad@gmail.com",
+  "password": "CC.81194"
+}
+
+### Logout
+POST http://localhost:8000/auth/logout HTTP/1.1
+Content-Type: application/json
+
+{
+  "token": ""
+}
