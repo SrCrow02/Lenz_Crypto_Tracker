@@ -1,0 +1,11 @@
+POST http://localhost:8000/asset/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Algum nome",
+    "quantity": 5,
+    "symbol": "BTC",
+    "purchasePrice": 120,
+    "purchaseDate": "2013-10-22",
+    "portfolioId": 1
+}

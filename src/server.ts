@@ -11,6 +11,7 @@ import { Logger } from './middlewares/logger';
 import { coin_info_router } from './routes/coin_infos_router/coin_infos_router';
 import { user_auth_router } from './routes/user_router/auth/user_auth_router';
 import { portfolio_router } from './routes/portfolio_router/portfolio_router';
+import { asset_router } from './routes/asset_router/asset_router';
 
 const app = express();
 
@@ -30,6 +31,7 @@ app.use(helmet());
 app.use('/coins', coin_info_router);
 app.use('/auth', user_auth_router);
 app.use('/portfolio', portfolio_router);
+app.use('/asset', asset_router);
 
 app.use(compresstion());
 

@@ -1,0 +1,9 @@
+ransactionRepository:
+
+Este repositório lida com as operações relacionadas às transações de compra e venda de ativos.
+
+create(data: Prisma.TransactionCreateInput): Registra uma nova transação de compra ou venda de um ativo.
+
+findTransaction(id: number): Recupera uma transação específica pelo seu ID.
+
+findTransactionsByAssetId(assetId: number): Obtém todas as transações associadas a um ativo específico.

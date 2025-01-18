@@ -25,7 +25,7 @@ export class FindPortfolioUseCase {
       return {
         success: true,
         message: 'Portfolio found successfully', 
-        content: `${portfolio?.name}, ${portfolio?.userId}, ${portfolio?.id}, ${portfolio?.createdAt}, ${portfolio?.updatedAt}`
+        content: `${portfolio?.name}, ID: ${portfolio?.userId}, ${portfolio?.id}, ${portfolio?.createdAt}, ${portfolio?.updatedAt}`
       };
     }
 }
